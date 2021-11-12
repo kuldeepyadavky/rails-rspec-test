@@ -1,4 +1,4 @@
-describe "before and after hooks" do
+RSpec.describe "before and after hooks" do
     # runs before each example/it block
     before(:example) do
       puts "Before example"
